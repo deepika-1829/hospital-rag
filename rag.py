@@ -59,7 +59,7 @@ class HospitalRAG:
     def answer_question(self, vectorstore, question):
         context = self.retrieve_context(vectorstore, question)
 
-        if not context:
+        if not context.strip():
             return "Sorry, I couldn't find that information in the hospital document."
 
         prompt = f"""
