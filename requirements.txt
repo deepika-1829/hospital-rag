@@ -1,9 +1,15 @@
 streamlit>=1.24.0
+
 langchain>=0.1.0
 langchain-community>=0.0.281
 langchain-groq>=0.0.2
+
+langchain-huggingface
+langchain-text-splitters
+
 chromadb>=0.4.0
 sentence-transformers>=2.2.2
+
 pypdf>=3.19.0
 python-dotenv>=1.0.0
 langsmith>=0.0.2
