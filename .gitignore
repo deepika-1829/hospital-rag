@@ -1,0 +1,20 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Streamlit cache
+.streamlit/
+
+# Environment files
+.env
+
+# Chroma vector database
+chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
